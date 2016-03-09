@@ -20,7 +20,15 @@
                     <li class="header__nav-list__item"><a class="header__nav-list__item__link" href="https://looklive.com/brands/"><img class="header__nav-list__item__link__img" src="/icons/png/brands.png">Brands</a></li>
                 </ul>
             </nav>
-            <div class="header__banner"><img class="header__banner__img" src="/images/header.png"></div>
+            <!-- <div class="header__banner"><img class="header__banner__img" src="/images/header.png"></div> -->
+            <picture class="header__banner">
+                <source srcset="/images/banner/header_1600.jpg" media="(min-width: 1600px)">
+                <source srcset="/images/banner/header_1280.jpg" media="(min-width: 1280px)">
+                <source srcset="/images/banner/header_1024.jpg" media="(min-width: 1024px)">
+                <source srcset="/images/banner/header_620.jpg" media="(min-width: 620px)">
+                <source srcset="/images/banner/header_320.jpg" media="(min-width: 320px)">
+                <img class="header__banner__img" src="/images/banner/header.png" alt="header">
+            </picture>
         </header>
         
         <main class="main">
