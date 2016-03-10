@@ -3,14 +3,8 @@ var router = express.Router();
 var fs = require('fs');
 
 router.get('/', function(req, res, next) {
-    fs.readFile('resources/feed.json', 'utf8', function(err, data) {
-        if(err) {
-            res.status(404);
-            next();
-        }
+    res.render('home');
 
-        res.render('feed', { title: 'Feed', items: JSON.parse(data) });
-    })
 });
 
 router.get('/appearance/:uuid', function(req, res, next) {
