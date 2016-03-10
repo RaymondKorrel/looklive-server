@@ -1,2 +1,18 @@
 # LookLive server
-Ik heb de HTML semantisch en de css selectoren kort gemaakt. Het resultaat is lastig te meten omdat de timeline van Chrome telkens een andere tijd weergeeft bij dezelfde bestanden.
+
+## Aangepast
+- HTML semantisch opgesteld
+- BEM toegepast (korte CSS selectoren)
+- Responsive images
+- Single page web-app (ajax requests)
+
+## Tijdsverandering
+
+### BEM:
+Van 630ms naar 620ms
+
+### Responsive images
+Van 620ms naar 570ms
+
+### Single page
+Van 570ms naar 555ms
