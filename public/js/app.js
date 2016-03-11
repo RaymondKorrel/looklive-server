@@ -22,6 +22,7 @@
             window.addEventListener("hashchange", url, false);
             window.addEventListener("load", url, false);
         };
+        //Zou beter dynamisch kunnen, vooral als de app ooit groter wordt heb je een gigantische chain aan if's
         var url = function() {
             // If hash is nothing, hash = #home
             var hash = window.location.hash;
