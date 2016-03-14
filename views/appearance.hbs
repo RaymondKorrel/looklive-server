@@ -1,14 +1,14 @@
 <section class="main__appearance" data-id="{{ item.id }}">
-    <div class="main__appearance__img">
+    <article class="main__appearance__img">
         <img class="main__appearance__img__img" src="{{ item.image.url }}">
         {{#each item.product_occurrences}}
             <div class="main__appearance__img__product-indicator" style="top: {{position.y}}%; left: {{position.x}}%;" data-uuid="{{product.id}}"></div>
         {{/each}}
-    </div>
-    <div class="main__appearance__info">
-        <h2 class="main__appearance__info__h2">
+    </article>
+    <article class="main__appearance__info">
+        <p class="main__appearance__info__h2">
             <img class="main__appearance__info__h2__avatar" src="{{ item.subject.avatar.url }}"> {{ item.subject.name }}
-        </h2>
+        </p>
         <h1>{{ item.title }}</h1>
 
         <div class="main__appearance__info__products">
@@ -42,5 +42,5 @@
                 {{/each}}
             </div>
         </div>
-    </div>
+    </article>
 </section>
