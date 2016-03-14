@@ -8,11 +8,23 @@
 
 ## Tijdsverandering
 
-### BEM:
-Van 630ms naar 620ms
+#### BEM:
+##### Before:
+  - 630ms
 
-### Responsive images
-Van 620ms naar 570ms
+##### After:
+  - 620ms
 
-### Single page
-Van 570ms naar 555ms
+#### Responsive images
+##### Before:
+  - 620ms
+
+##### After:
+  - 570ms
+
+#### Single page
+##### Before:
+  - 570ms
+
+##### After:
+  - 555ms
