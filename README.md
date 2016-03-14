@@ -5,17 +5,18 @@
 - BEM toegepast (korte CSS selectoren)
 - Responsive images
 - Single page web-app (ajax requests)
+- Service worker
 
 ## Tijdsverandering
 
-#### BEM:
+### BEM:
 ##### Before:
   - 630ms
 
 ##### After:
   - 620ms
 
-#### Responsive images
+### Responsive images
 ##### Before:
   - 1860kb
   - 620ms
@@ -24,14 +25,14 @@
   - 464kb - 45kb
   - 570ms
 
-#### Single page
+### Single page
 ##### Before:
   - 570ms
 
 ##### After:
   - 555ms
 
-#### Service worker
+### Service worker
 ##### Before:
   - 555ms
 
