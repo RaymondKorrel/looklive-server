@@ -17,9 +17,11 @@
 
 #### Responsive images
 ##### Before:
+  - 1860kb
   - 620ms
 
 ##### After:
+  - 464kb - 45kb
   - 570ms
 
 #### Single page
@@ -28,3 +30,10 @@
 
 ##### After:
   - 555ms
+
+#### Service worker
+##### Before:
+  - 555ms
+
+##### After:
+  - 340ms
