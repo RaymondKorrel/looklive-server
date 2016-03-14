@@ -19,10 +19,10 @@
         };
         var events = function() {
             // Fire url function on hash change and on refresh
-            window.addEventListener("hashchange", url, false);
-            window.addEventListener("load", url, false);
+            window.addEventListener("hashchange", urlChanged, false);
+            window.addEventListener("load", urlChanged, false);
         };
-        var url = function() {
+        var urlChanged = function() {
             // If hash is nothing, hash = #home
             var hash = window.location.hash;
             if (!hash) {
