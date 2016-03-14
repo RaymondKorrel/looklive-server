@@ -38,3 +38,5 @@
 
 ##### After:
   - 340ms
+
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
