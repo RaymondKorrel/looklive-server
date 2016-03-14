@@ -76,7 +76,7 @@ Daarnaast is het mogelijk om push notificaties te sturen.
 - Installable - Makkelijk te installeren op de homescreen
 - Linkable - Makkelijk te delen met URL's
 
-## WHAT PROGRESSIVE APPS LOOK LIKE
+## Hoe progressive web apps er uitzien
 
 Het begint natuurlijk allemaal in de browser, waar de (hier nog) website geladen wordt. Dan heb je de optie om de website aan de homescreen toe te voegen, waarna je de website als een app in het beginscherm te zien krijgt. De app werkt offline, in fullscreen, en zijn geoptimaliseerd met service workers, Manifest, TLS en responsive design. Op dit punt is de web app bijna niet meer te onderscheiden van een native app.
 
