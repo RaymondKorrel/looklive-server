@@ -11,6 +11,8 @@ https://looklive.raymondkorrel.me
 - Single page web-app (ajax requests)
 - Delete jQuery
 - Service worker
+- Gulp - Uglify
+
 
 ## Tijdsverandering
 Alle tijden zijn gemeten met 4G (4mb/s 20ms RTT).
@@ -73,6 +75,22 @@ First Paint: 409ms <br />
 Load event: 498ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
+
+### Gulp - Uglify
+Hierheb ik de plugins uglify en uglifycss van Gulp gebruikt om alle javascript en css te optimaliseren.
+###### Before:
+File size (of all css and js): 15kb <br />
+DOM: 338ms <br />
+First Paint: 409ms <br />
+Load event: 498ms
+
+###### After:
+File size (of all css and js): 9kb <br />
+DOM: 394ms <br />
+First Paint: 431ms <br />
+Load event: 484ms
+
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-compress.jpg)
 
 #Progressive web app
 Een Progressive web app is een web app die de nieuwste web features gebruikt om het meer als een native app te laten werken, of er meer op te laten lijken. Deze nieuwe features zorgen ervoor dat de webapp snel is en simpelweg als een native app 'voelt'.

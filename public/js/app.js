@@ -36,8 +36,8 @@
                     var uuid = hash.replace('#appearance/', '')
                     api.renderAppearance(uuid);
                 }
-            }
-        }
+            };
+        };
         // Return public functions
         return {
             init: init
