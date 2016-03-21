@@ -9,6 +9,7 @@ https://looklive.raymondkorrel.me
   - Flexbox i.p.v. float
 - Responsive images
 - Single page web-app (ajax requests)
+- Delete jQuery
 - Service worker
 
 ## Tijdsverandering
@@ -16,36 +17,60 @@ Alle tijden zijn gemeten met 4G (4mb/s 20ms RTT).
 
 ### BEM:
 ###### Before:
-  - 630ms
-DOM: 1.55 s
-First Paint: 1.60 s
-Load event: 15.53 s
+DOM: 489ms
+First Paint: 549ms
+Load event: 14.95s
 
 ###### After:
-  - 620ms
+DOM: 445ms
+First Paint: 520ms
+Load event: 15.46s
 
 ### Responsive images
 ###### Before:
-  - 1860kb
-  - 620ms
+Size: 1860kb
+DOM: 445ms
+First Paint: 520ms
+Load event: 15.46s
 
 ###### After:
-  - 464kb - 45kb
-  - 570ms
+Size: 464kb - 45kb
+DOM: 504ms
+First Paint: 512ms
+Load event: 8.09s
+
+### Delete jQuery
+###### Before:
+DOM: 504ms
+First Paint: 512ms
+Load event: 8.09s
+
+###### After:
+DOM: 386ms
+First Paint: 412ms
+Load event: 5.4s
 
 ### Single page
 ###### Before:
-  - 570ms
+DOM: 386ms
+First Paint: 412ms
+Load event: 5.4s
 
 ###### After:
-  - 555ms
+DOM: 415ms
+First Paint: 509ms
+Load event: 6.13s
 
 ### Service worker
 ###### Before:
-  - 555ms
+DOM: 415ms
+First Paint: 509ms
+Load event: 6.13s
 
 ###### After:
-  - 340ms
+DOM: 338ms
+First Paint: 409ms
+Load event: 498ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
 
