@@ -4,41 +4,47 @@ https://looklive.raymondkorrel.me
 
 ## Aangepast
 - HTML semantisch opgesteld
-- BEM toegepast (korte CSS selectoren)
+- CSS aangepast:
+  - BEM toegepast (korte CSS selectoren)
+  - Flexbox i.p.v. float
 - Responsive images
 - Single page web-app (ajax requests)
 - Service worker
 
 ## Tijdsverandering
+Alle tijden zijn gemeten met 4G (4mb/s 20ms RTT).
 
 ### BEM:
-##### Before:
+###### Before:
   - 630ms
+DOM: 1.55 s
+First Paint: 1.60 s
+Load event: 15.53 s
 
-##### After:
+###### After:
   - 620ms
 
 ### Responsive images
-##### Before:
+###### Before:
   - 1860kb
   - 620ms
 
-##### After:
+###### After:
   - 464kb - 45kb
   - 570ms
 
 ### Single page
-##### Before:
+###### Before:
   - 570ms
 
-##### After:
+###### After:
   - 555ms
 
 ### Service worker
-##### Before:
+###### Before:
   - 555ms
 
-##### After:
+###### After:
   - 340ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
