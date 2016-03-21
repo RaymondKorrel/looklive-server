@@ -77,7 +77,7 @@ Load event: 498ms
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
 
 ### Gulp - Uglify
-Hierheb ik de plugins uglify en uglifycss van Gulp gebruikt om alle javascript en css te optimaliseren.
+Hier heb ik de plugins uglify en uglifycss van Gulp gebruikt om alle javascript en css te optimaliseren.
 ###### Before:
 File size (of all css and js): 15kb <br />
 DOM: 338ms <br />
@@ -91,6 +91,22 @@ First Paint: 431ms <br />
 Load event: 484ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-compress.jpg)
+
+### Gulp - Images
+De plugin imagemin van Gulp verkleint JPEG, PNG, SVG en GIF afbeeldingen.
+###### Before:
+File size (of all images): 1575kb <br />
+DOM: 394ms <br />
+First Paint: 431ms <br />
+Load event: 484ms
+
+###### After:
+File size (of all images): 1418kb <br />
+DOM: 419ms <br />
+First Paint: 433ms <br />
+Load event: 558ms
+
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-img.jpg)
 
 #Progressive web app
 Een Progressive web app is een web app die de nieuwste web features gebruikt om het meer als een native app te laten werken, of er meer op te laten lijken. Deze nieuwe features zorgen ervoor dat de webapp snel is en simpelweg als een native app 'voelt'.
