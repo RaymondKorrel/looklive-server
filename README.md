@@ -17,59 +17,59 @@ Alle tijden zijn gemeten met 4G (4mb/s 20ms RTT).
 
 ### BEM:
 ###### Before:
-DOM: 489ms
-First Paint: 549ms
+DOM: 489ms <br />
+First Paint: 549ms <br />
 Load event: 14.95s
 
 ###### After:
-DOM: 445ms
-First Paint: 520ms
+DOM: 445ms <br />
+First Paint: 520ms <br />
 Load event: 15.46s
 
 ### Responsive images
 ###### Before:
-Size: 1860kb
-DOM: 445ms
-First Paint: 520ms
+Size: 1860kb <br />
+DOM: 445ms <br />
+First Paint: 520ms <br />
 Load event: 15.46s
 
 ###### After:
-Size: 464kb - 45kb
-DOM: 504ms
-First Paint: 512ms
+Size: 464kb - 45kb <br />
+DOM: 504ms <br />
+First Paint: 512ms <br />
 Load event: 8.09s
 
 ### Delete jQuery
 ###### Before:
-DOM: 504ms
-First Paint: 512ms
+DOM: 504ms <br />
+First Paint: 512ms <br />
 Load event: 8.09s
 
 ###### After:
-DOM: 386ms
-First Paint: 412ms
+DOM: 386ms <br />
+First Paint: 412ms <br />
 Load event: 5.4s
 
 ### Single page
 ###### Before:
-DOM: 386ms
-First Paint: 412ms
+DOM: 386ms <br />
+First Paint: 412ms <br />
 Load event: 5.4s
 
 ###### After:
-DOM: 415ms
-First Paint: 509ms
+DOM: 415ms <br />
+First Paint: 509ms <br />
 Load event: 6.13s
 
 ### Service worker
 ###### Before:
-DOM: 415ms
-First Paint: 509ms
+DOM: 415ms <br />
+First Paint: 509ms <br />
 Load event: 6.13s
 
 ###### After:
-DOM: 338ms
-First Paint: 409ms
+DOM: 338ms <br />
+First Paint: 409ms <br />
 Load event: 498ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
