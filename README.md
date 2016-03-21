@@ -121,3 +121,62 @@ https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
 https://developers.google.com/web/progressive-web-apps
 https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
 https://developer.apple.com/library/iad/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+
+# Onderzoek Gulp/Grunt
+Gulp is gericht op code terwijl Grunt zich juist richt op configuratie.
+
+Grunt:
+```javascript
+grunt.initConfig({
+clean: {
+  src: ['build/app.js', 'build/vendor.js']
+},
+
+copy: {
+  files: [{
+    src: 'build/app.js',
+    dest: 'build/dist/app.js'
+  }]
+}
+
+concat: {
+  'build/app.js': ['build/vendors.js', 'build/app.js']
+}
+
+// ... other task configurations ...
+});
+```
+
+Gulp:
+```javascript
+//import the necessary gulp plugins
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var minifyCss = require('gulp-minify-css');
+var rename = require('gulp-rename');
+
+//declare the task
+gulp.task('sass', function(done) {
+  gulp.src('./scss/ionic.app.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./www/css/'))
+    .pipe(minifyCss({
+      keepSpecialComments: 0
+    }))
+    .pipe(rename({ extname: '.min.css' }))
+    .pipe(gulp.dest('./www/css/'))
+    .on('end', done);
+});
+```
+
+Naast het feit dat de syntax van Gulp me fijner lijkt werken, heeft het een snellere boot time. Dit komt omdat ze allebei op een andere manier werken. Verder is het bij Gulp niet nodig om temporary files op te slaan op je schijf.
+
+In Grunt moeten de bestanden op de schijf geplaatst worden:
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/grunt.png)
+
+In Gulp gebeurt dat in het geheugen:
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/gulp.png)
+
+Bronnen:
+- https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4#.wr34zbmqe
+- http://jaysoo.ca/2014/01/27/gruntjs-vs-gulpjs/
