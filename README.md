@@ -108,6 +108,23 @@ Load event: 558ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-img.jpg)
 
+### Subsetting custom font
+Een font bevat allerlei karakters die helemaal niet nodig zijn. Declan zegt dan ook dat het 'subsetten' van fonts enorm kan schelen. Daarom heb ik de fonts geoptimaliseerd (via Fontsquirrel) door de onnodige karakters eruit te halen en te exporteren naar woff.
+Bron: http://thenewcode.com/878/Slash-Page-Load-Times-With-CSS-Font-Subsetting
+###### Before:
+File size (of font): 175kb <br />
+DOM: 419ms <br />
+First Paint: 433ms <br />
+Load event: 558ms
+
+###### After:
+File size (of all images): 22kb <br />
+DOM: 398ms <br />
+First Paint: 421ms <br />
+Load event: 496ms
+
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-font.jpg)
+
 #Progressive web app
 Een Progressive web app is een web app die de nieuwste web features gebruikt om het meer als een native app te laten werken, of er meer op te laten lijken. Deze nieuwe features zorgen ervoor dat de webapp snel is en simpelweg als een native app 'voelt'.
 
