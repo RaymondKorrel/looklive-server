@@ -5,6 +5,7 @@
     var app = (function() {
         var init = function() {
             navigation.init();
+            fontFaceObserver.init()
         }
         // Return public functions
         return {
@@ -173,6 +174,24 @@
             renderAppearance: renderAppearance
         }
     }());
+    // The font function
+    var fontFaceObserver = (function() {
+        var init = function() {
+            observe();
+        };
+        var observe = function() {
+            var observer = new FontFaceObserver('Raleway');
+
+            observer.check().then(function () {
+                document.documentElement.className += " fonts-loaded";
+            });
+        }
+        // Return public functions
+        return {
+            init: init
+        }
+    }());
+    
 
     // Fire app.init
     app.init();

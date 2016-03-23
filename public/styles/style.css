@@ -11,6 +11,16 @@
     font-weight: bold;
 }
 
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.fonts-loaded body {
+    font-family: Raleway, sans-serif;
+}
+
 /* STYLING */
 
 .main {
@@ -19,12 +29,6 @@
 
 img {
     max-width: 100%;
-}
-
-body {
-    font: 14px Raleway, Helvetica, Arial, sans-serif;
-    background-color: #f1f1f1;
-    margin: 0;
 }
 
 .header {

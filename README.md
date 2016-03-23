@@ -125,6 +125,20 @@ Load event: 496ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-font.jpg)
 
+### Font face observer (asynchroon laden van fonts)
+Met Font face observer kan je tijdelijk een standaard font zetten, terwijl je custom font aan het laden is.
+###### Before:
+DOM: 398ms <br />
+First Paint: 421ms <br />
+Load event: 496ms
+
+###### After:
+DOM: 508ms <br />
+First Paint: 541ms <br />
+Load event: 538ms
+
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-fontfaceobserver.jpg)
+
 #Progressive web app
 Een Progressive web app is een web app die de nieuwste web features gebruikt om het meer als een native app te laten werken, of er meer op te laten lijken. Deze nieuwe features zorgen ervoor dat de webapp snel is en simpelweg als een native app 'voelt'.
 
