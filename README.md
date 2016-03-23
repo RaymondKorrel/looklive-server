@@ -245,3 +245,21 @@ In Gulp gebeurt dat in het geheugen:
 Bronnen:
 - https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4#.wr34zbmqe
 - http://jaysoo.ca/2014/01/27/gruntjs-vs-gulpjs/
+
+## Eindconclusie
+De performance van de website is een heel stuk verbeterd sinds de eerste week. De resultaten van de timeline waren vaak afwisselend en klopte soms niet helemaal. Hieronder de het verschil tussen voor en na:
+
+###### Voor de wijzigingen:
+DOM: 489ms <br />
+First Paint: 549ms <br />
+Load event: 14.95s
+
+###### Na de wijzigingen (hoogst gemeten snelheid):
+DOM: 338ms <br />
+First Paint: 409ms <br />
+Load event: 498ms
+
+### Snelheids winst
+DOM: 151ms <br />
+First Paint: 140ms <br />
+Load event: 14.94s
