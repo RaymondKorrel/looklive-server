@@ -11,12 +11,12 @@
         </p>
         <h1>{{ item.title }}</h1>
 
-        <div class="main__appearance__info__products">
+        <section class="main__appearance__info__products">
             <h1 class="main__appearance__info__products__h1">Products</h1>
-            <div class="main__appearance__info__products__inner">
+            <article class="main__appearance__info__products__inner">
                 {{#each products}}
-                    <div class="main__appearance__info__products__inner__product" data-uuid="{{id}}">
-                        <div class="main__appearance__info__products__inner__product__subitem">
+                    <section class="main__appearance__info__products__inner__product" data-uuid="{{id}}">
+                        <article class="main__appearance__info__products__inner__product__subitem">
                             <div class="main__appearance__info__products__inner__product__subitem__image">
                                 <h1>Actual</h1>
                                 <img class="main__appearance__info__products__inner__product__subitem__image__img" src="{{image.url}}">
@@ -25,7 +25,7 @@
                                 <h1 class="main__appearance__info__products__inner__product__subitem__info__h1">{{ name }}</h1>
                                 <h2 class="main__appearance__info__products__inner__product__subitem__info__h2">{{ brand.name }}</h2>
                             </div>
-                        </div>
+                        </article>
                         {{#each similars}}
                             <div class="main__appearance__info__products__inner__product__subitem">
                                 <div class="main__appearance__info__products__inner__product__subitem__image">
@@ -38,9 +38,9 @@
                                 </div>
                             </div>
                         {{/each}}
-                    </div>
+                    </section>
                 {{/each}}
-            </div>
-        </div>
+            </article>
+        </section>
     </article>
 </section>

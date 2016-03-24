@@ -5,8 +5,9 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var uglify = require('gulp-uglify');
 var uglifycss = require('gulp-uglifycss');
-const imagemin = require('gulp-imagemin');
-const pngquant = require('imagemin-pngquant');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var imageminMozjpeg = require('imagemin-mozjpeg');
 
 // JS task
 gulp.task('js', function() {
@@ -28,7 +29,7 @@ gulp.task('img', function () {
 		.pipe(imagemin({
 			progressive: true,
 			svgoPlugins: [{removeViewBox: false}],
-			use: [pngquant()]
+			use: [imageminMozjpeg({quality: 80})]
 		}))
 		.pipe(gulp.dest('./public/images/banner/min'));
 });
