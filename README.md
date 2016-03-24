@@ -79,6 +79,9 @@ Load event: 498ms
 
 ![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/improvement-sw.jpg)
 
+Browser support:
+![alt tag](https://github.com/RaymondKorrel/looklive-server/blob/student/raymond/public/images/improvements/sw-bs.jpg)
+
 ### Gulp - Uglify
 Hier heb ik de plugins uglify en uglifycss van Gulp gebruikt om alle javascript en css te optimaliseren.
 ###### Before:
