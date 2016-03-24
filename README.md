@@ -3,11 +3,12 @@ Bekijk hem online!
 https://looklive.raymondkorrel.me
 
 ## Aanpassingen sinds mondeling
-:white_check_mark: Appearance.hbs semantischer
-:white_check_mark: Imagemin beter toegepast
+:white_check_mark: Appearance.hbs semantischer <br />
+:white_check_mark: Imagemin beter toegepast <br />
   - Ik heb de plugin 'imagemin mozjpeg' gebruikt om de quality op 80% te zetten waardoor er 1.26mb van alle afbeeldingen afgegaan is en het kwaliteits verschil niet veranderd is. <br />
-  bron: https://www.npmjs.com/package/imagemin-mozjpeg
-:white_check_mark: Minder grote Afbeeldingen (de grootste afbeelding van 464kb naar 115kb!)
+  bron: https://www.npmjs.com/package/imagemin-mozjpeg <br />
+
+:white_check_mark: Minder grote Afbeeldingen (de grootste afbeelding van 464kb naar 115kb!) <br />
 :white_check_mark: Transition left vervangen voor transform translate
 
 ## Aangepast
