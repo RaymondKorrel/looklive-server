@@ -12,6 +12,9 @@ https://looklive.raymondkorrel.me
 - Delete jQuery
 - Service worker
 - Gulp - Uglify
+- Gulp - images
+- Subsetting custom font
+- Font face observer
 
 
 ## Tijdsverandering
